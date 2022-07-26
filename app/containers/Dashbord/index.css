@@ -1,0 +1,35 @@
+.mainBodyDashbord {
+  background-color: #081c3b;
+  color: '#f1f3f5';
+  margin: auto;
+  margin-top: 20px;
+  direction: rtl;
+  width: 95%;
+  text-align: center;
+}
+.mainBodyDashbordMobile {
+  margin: auto;
+  margin-top: 20px;
+  direction: rtl;
+  width: 95%;
+  text-align: center;
+}
+.ownerName {
+  font-size: 18px;
+}
+.ownerCreate {
+  font-size: 15px;
+  color: #f9fafba1;
+}
+.ownertype {
+  font-size: 15px;
+  color: #f9fafba1;
+}
+.ownerAmont {
+  font-size: 15px;
+  color: #f9fafba1;
+}
+.ownerdate {
+  font-size: 15px;
+  color: #f9fafba1;
+}

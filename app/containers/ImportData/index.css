@@ -1,0 +1,10 @@
+.rowstable{
+
+    border-style: solid;
+    border-width: 1px;
+    margin: auto;
+    margin-top: 5px;
+   border-color: blanchedalmond;
+   color: rgb(248, 232, 8);
+   direction: rtl;
+}

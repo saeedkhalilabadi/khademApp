@@ -1,0 +1,296 @@
+:root {
+  --back: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #06fa3f;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --blak: #000000;
+  --backdark: #343a4093;
+}
+body {
+  font-family: 'B-Nazanin' !important;
+}
+* {
+  font-family: 'B-Nazanin' !important;
+}
+
+.title {
+  font-family: 'B-Nazanin';
+  color: #f9fafb;
+
+  border-radius: 10px;
+  width: 80%;
+  text-align: center;
+  margin: auto;
+  padding: 10px;
+  font-size: 25px;
+  direction: rtl;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.text-muted {
+  color: #f9fafbaf !important;
+  font-size: 14px !important;
+}
+
+.form {
+  font-family: 'B-Nazanin';
+  direction: rtl;
+
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  margin-top: 15px;
+}
+.form1 {
+  font-family: 'B-Nazanin';
+  direction: rtl;
+
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 15px;
+}
+.fieldName {
+  font-family: 'B-Nazanin';
+  color: #6c757d;
+  display: inline;
+}
+.fieldValue {
+  font-family: 'B-Nazanin';
+  color: #000000;
+  display: inline;
+}
+.fildeItemInput {
+  direction: rtl;
+  height: 45px;
+  width: 100%;
+  font-size: 18px;
+  background-color: #133162 !important;
+  color: #f9fafb !important;
+}
+.formDataFields {
+  font-family: 'B-Nazanin';
+  margin: auto;
+  margin-top: 20px;
+}
+.backform {
+}
+.modalBack {
+  position: fixed;
+  background-color: #5a585860;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 10001;
+  overflow: auto;
+}
+.modalBody {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.modalForm {
+  direction: rtl;
+  margin: auto;
+  margin-top: 120px;
+  background-color: #133264;
+  padding: 20px;
+  padding-top: 5px;
+  border-radius: 20px;
+  max-width: 400px;
+  text-align: center;
+}
+.fieldItem {
+  margin-top: 15px;
+}
+.borderfeild {
+  border-style: solid;
+  border-width: 1px;
+}
+.meliat {
+  background-color: #ebebeb;
+  padding: 5px;
+  text-align: center;
+  min-width: 320px;
+  margin: auto;
+  border-radius: 5px;
+}
+
+.DatePicker {
+  border: 1px solid #c8c8c8 !important;
+  width: 100%;
+  background-color: #133264;
+  z-index: 90 !important;
+}
+.DatePicker__input.-rtl {
+  font-size: 18px;
+  background-color: #133264 !important;
+  color: #f9fafb !important;
+  border: none !important;
+  z-index: 90 !important;
+  max-width: 100% !important;
+}
+.btnForm {
+  margin-top: 20px;
+  width: 80%;
+}
+.deleteForm {
+  position: fixed;
+  background-color: #03063385;
+  top: 0px;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  right: 0px;
+  z-index: 100;
+  direction: rtl;
+  padding: 30px;
+  font-size: 30px;
+  color: red;
+}
+.addBtn {
+  position: fixed;
+  bottom: 90px;
+  width: 60px;
+  height: 60px;
+  right: 20px;
+  color: #f9fafb;
+  background-color: #4799f5;
+  padding: 10px;
+  border-radius: 50%;
+  z-index: 1000;
+}
+.backBtn {
+  position: fixed;
+  top: 50px;
+
+  min-width: 50px;
+  left: 20px;
+  color: #f9fafb;
+  background-color: #133162 !important;
+  border: none;
+}
+.btn-warning {
+  background-color: #4799f5;
+  border: none !important;
+  color: #f9fafb !important;
+  font-size: 20px;
+  padding-top: 6px !important;
+  min-width: 50px !important;
+}
+.btn-warning:disabled {
+  background-color: #4798f586;
+  border: none !important;
+  color: #f9fafb !important;
+  font-size: 20px;
+  padding-top: 6px !important;
+  min-width: 50px !important;
+}
+.MuiInputBase-input {
+  background-color: #133162 !important;
+  color: #f9fafb !important;
+}
+
+.MuiPaper-rounded {
+  background-color: #133162 !important;
+  color: #f9fafb !important;
+}
+.MuiTableRow-root {
+  background-color: #133162 !important;
+  color: #f9fafb !important;
+  border: none !important;
+  margin-top: 5px !important;
+}
+.MuiTableCell-root {
+  background-color: #133162 !important;
+  color: #f9fafb !important;
+}
+.filterItem {
+  text-align: right;
+  border: red;
+  color: red;
+  border-radius: 30px;
+  padding: 10px;
+  border: solid 1px red;
+}
+.alarm-text {
+  color: red;
+}
+.back1 {
+  background-color: #4799f5;
+}
+.back2 {
+  background-color: #133162;
+}
+.back3 {
+  background-color: #133264;
+}
+.mainBack {
+  background-color: #081c3b;
+}
+.tabs {
+  background-color: #4799f5 !important;
+  border: none !important;
+  color: #f9fafb !important;
+  font-size: 12px !important;
+  margin: 5px !important;
+  padding-top: 0 10 !important;
+  min-width: 50px !important;
+  border-radius: 5px !important;
+}
+.tabsSelected {
+  background-color: #133162 !important;
+  border: none !important;
+  color: #f9fafb !important;
+  font-size: 12px !important;
+  margin: 5px !important;
+  padding-top: 0 10 !important;
+  min-width: 50px !important;
+  border-radius: 5px !important;
+}
+.MuiTabs-flexContainer {
+  justify-content: center;
+  margin: auto;
+  padding-top: 10px;
+}
+.dashboardlist {
+  padding: 10px;
+  background-color: #133264d2;
+  margin: auto;
+  width: 95%;
+  min-height: 60px;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+.linkPhone {
+  text-decoration: none !important;
+  color: var(--white) !important;
+}
+.ColorRed {
+  color: #ff0019 !important;
+}
+.ColorGreen {
+  color: #06fa3f !important;
+}

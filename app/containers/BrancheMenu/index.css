@@ -1,0 +1,105 @@
+.navigationButton {
+  direction: ltr;
+  position: fixed;
+  z-index: 900;
+  bottom: 0px;
+  left: 0px;
+  font-size: 13px;
+  right: 0px;
+  height: 70px;
+  text-align: center;
+  background-color: #ffffff;
+  color: #83878f !important;
+}
+.navTop{
+position: fixed;
+top: 0px;
+left: 0px;
+right: 0px;
+height: 50px;
+background-color: #19345aca;
+
+
+}
+.homeBtn {
+  font-size: 60px !important;
+  margin-top: -5px;
+  padding: 8px;
+  border-radius: 50%;
+  color: #24436f;
+  background-color: #24436f;
+  margin-top: 25px;
+  color: #ffffff;
+  transition: 1000ms;
+}
+.homeBtnSelected {
+  font-size: 40px !important;
+  padding: 8px;
+  border-radius: 50%;
+  color: #24436f;
+  background-color: #24436f;
+  margin-top: -25px;
+  color: #ffffff;
+  transition: 500ms;
+}
+.homeBtnUnSelected {
+  transition: 500ms;
+}
+
+.menu {
+  z-index: 21;
+  position: fixed;
+  top: 2px;
+  right: 5px;
+  direction: rtl;
+}
+
+.navbarTopLogo {
+  position: fixed;
+  left: 5px;
+  top: 2px;
+  z-index: 104;
+  width: 40px;
+  height: 40px;
+  padding: 2px;
+  margin-top: 5px;
+  border-radius: 5px;
+}
+.selectDevice{
+  position: fixed;
+  left: 55px;
+  top:8px;
+  z-index: 104;
+ 
+ color: #ffffff; 
+ font-size: 35px;
+}
+
+.menuback {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 100%;
+  width: 100%;
+
+  z-index: 103;
+}
+
+.avatar {
+  z-index: 103;
+  position: fixed;
+  top: 0px;
+  right: 20px;
+  min-width: 200px;
+  height: 50px;
+  text-align: center;
+  padding: 2px;
+}
+
+.profilename {
+  font-family: 'B-Nazanin';
+  margin-top: 11px;
+  text-align: right;
+
+  font-size: 11px;
+}

@@ -1,0 +1,21 @@
+.alarmIcons {
+  color: red;
+  font-size: 50px;
+  margin-left: 20px;
+}
+.alarmItems {
+  text-align: right;
+  font-size: 20px;
+  margin-top: 40px;
+}
+.title1Icons {
+  color: red;
+  font-size: 60px;
+  margin-left: 20px;
+}
+.title1 {
+  font-size: 40px;
+  background-color: #4799f5;
+  border-radius: 10px;
+  margin-top: 10px;
+}

@@ -1,0 +1,27 @@
+.startPage{
+width: 100%;
+margin: auto;
+text-align: center;
+}
+.startPagePic{
+margin-top: 70px;
+}
+.startPageText{
+    margin-top: 50px;
+
+}
+.startPagePutton{
+   
+    width: 100%;
+    text-align: center !important;
+    margin-top: 200px;
+
+}
+.btn-warning {
+    background-color: #4799f5;
+    border: none !important;
+    color: #f9fafb !important;
+    font-size: 20px;
+    padding-top: 6px !important;
+    min-width: 50px !important;
+  }

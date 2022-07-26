@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'B-Nazanin';
+  src: local('B-NAZANIN'), url(./fonts/bnaznnbd.ttf) format('truetype');
+}
+* {
+  font-family: 'B-Nazanin' !important;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
